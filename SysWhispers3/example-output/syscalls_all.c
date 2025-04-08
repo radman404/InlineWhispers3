@@ -1,9 +1,9 @@
-#include "Syscalls.h"
+#include "syscalls_all.h"
 #include <stdio.h>
 
 //#define DEBUG
 
-// JUMPER
+#define JUMPER
 
 #ifdef _M_IX86
 
