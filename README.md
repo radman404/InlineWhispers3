@@ -3,24 +3,21 @@ InlineWhispers3 is an updated version of [InlineWhispers2](https://github.com/Sh
 
 ## How to set this up and run this?
 
-> At the moment of writing this, the latest SysWhispers3 commit is [`31cfc93`](https://github.com/klezVirus/SysWhispers3/commit/31cfc93c9466b52ae79d60925b0b5e0a1f653b88), from Dec 23, 2023
 
-```sh
-# Clone the repo to your device
-git clone https://github.com/tdeerenberg/InlineWhispers3
-cd InlineWhispers3
+1. Clone the repo to your device
+2. Generate stubs with SysWhispers3
+3. Make SysWhispers3 output BOF compatible
 
-# Generate stubs with SysWhispers3
-cd SysWhispers3/
-python3 syswhispers.py -p all -a x64 -m jumper -o syscalls_all
-
-# Make SysWhispers3 output BOF compatible
-cd ..
+See commands:
+```bash
+git clone https://github.com/tdeerenberg/InlineWhispers3 && cd InlineWhispers3
+cd SysWhispers3/ && python3 syswhispers.py -p all -a x64 -m jumper -o syscalls_all && cd ..
 python3 InlineWhispers3.py --aio
 ```
 
 This generates the required syscalls.c/h files and then runs InlineWhispers3 to make the files compatible with BOFs.
 
+> At the moment of writing this, the latest SysWhispers3 commit [`31cfc93`](https://github.com/klezVirus/SysWhispers3/commit/31cfc93c9466b52ae79d60925b0b5e0a1f653b88) is used, from Dec 23, 2023 <br><br>
 > The `--aio` flag is optional and merges all output files into one `.h` file, which can also be used instead of using `syscalls.c`, `syscalls.h`, and `syscalls-asm.h`
 
 ## How to use indirect syscalls in your BOF
