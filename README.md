@@ -1,18 +1,20 @@
 # InlineWhispers3
 InlineWhispers3 is an updated version of [InlineWhispers2](https://github.com/Sh0ckFR/InlineWhispers2), designed to work with Indirect System Calls in Cobalt Strike's Beacon Object Files (BOFs) using [SysWhispers3](https://github.com/klezVirus/SysWhispers3). This tool helps changing SysWhispers3 generated files to be BOF compatible.
 
-## How to set this up?
+## How to set this up and run this?
+
+> At the moment of writing this, the latest SysWhispers3 commit is [`31cfc93`](https://github.com/klezVirus/SysWhispers3/commit/31cfc93c9466b52ae79d60925b0b5e0a1f653b88), from Dec 23, 2023
 
 ```sh
-# Clone the main repository and initialize submodules (SysWhispers3)
-git clone --recurse-submodules https://github.com/tdeerenberg/InlineWhispers3
+# Clone the repo to your device
+git clone https://github.com/tdeerenberg/InlineWhispers3
 cd InlineWhispers3
 
-# Navigate to submodule directory and run the syswhispers.py script
+# Generate stubs with SysWhispers3
 cd SysWhispers3/
 python3 syswhispers.py -p all -a x64 -m jumper -o syscalls_all
 
-# Navigate back to the main repository and run the InlineWhispers3.py script
+# Make SysWhispers3 output BOF compatible
 cd ..
 python3 InlineWhispers3.py --aio
 ```
@@ -25,7 +27,7 @@ This generates the required syscalls.c/h files and then runs InlineWhispers3 to 
 
 Import `syscalls.h`, `syscalls.c`, and `syscalls-asm.h` (or only `syscalls-aio.h`) in your project and include `syscalls.c` (or `syscalls-aio.h`) in your C code to start using syscalls.
 
-An example BOF for reference (creates a new process using ` `):
+An example BOF for reference (creates a new process using `NtCreateProcessEx`):
 
 ```c
 #include <windows.h>
@@ -33,7 +35,18 @@ An example BOF for reference (creates a new process using ` `):
 #include "syscalls.c"
 
 void go(char* args, int length) {
-    ... CODE TO BE ADDED ...
+    HANDLE hProcess;
+    OBJECT_ATTRIBUTES oa = {sizeof(oa)};
+
+    NTSTATUS status = Sw3NtCreateProcessEx(&hProcess, PROCESS_ALL_ACCESS, &oa, 
+        (HANDLE)(LONG_PTR)-1, 0, NULL, NULL, NULL, 0);
+
+    if (status == 0) {
+        BeaconPrintf(CALLBACK_OUTPUT, "[+] NtCreateProcessEx successful");
+    } else {
+        BeaconPrintf(CALLBACK_ERROR, "[-] NtCreateProcessEx failed: 0x%X\n", status);
+        return;
+    }
 }
 ```
 
