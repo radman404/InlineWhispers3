@@ -14,10 +14,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x090BDE162 \n\
+mov ecx, 0x0645C3E6D \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x090BDE162 \n\
+mov ecx, 0x0645C3E6D \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -35,10 +35,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0B198C761 \n\
+mov ecx, 0x01B4539D3 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0B198C761 \n\
+mov ecx, 0x01B4539D3 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -56,10 +56,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x02ABE2B30 \n\
+mov ecx, 0x05AF6675E \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x02ABE2B30 \n\
+mov ecx, 0x05AF6675E \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -77,10 +77,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x019A82701 \n\
+mov ecx, 0x03FE3054B \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x019A82701 \n\
+mov ecx, 0x03FE3054B \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -98,10 +98,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0AA974ACB \n\
+mov ecx, 0x0E6BDEE21 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0AA974ACB \n\
+mov ecx, 0x0E6BDEE21 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -119,10 +119,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0CA9EEB09 \n\
+mov ecx, 0x01E8C3B5A \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0CA9EEB09 \n\
+mov ecx, 0x01E8C3B5A \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -140,10 +140,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x052D55A76 \n\
+mov ecx, 0x07EBC3A1E \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x052D55A76 \n\
+mov ecx, 0x07EBC3A1E \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -161,10 +161,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x04AD55862 \n\
+mov ecx, 0x0D879E2DE \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x04AD55862 \n\
+mov ecx, 0x0D879E2DE \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -182,10 +182,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x09E05AED2 \n\
+mov ecx, 0x068A05664 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x09E05AED2 \n\
+mov ecx, 0x068A05664 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -203,10 +203,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x002986257 \n\
+mov ecx, 0x004AE043D \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x002986257 \n\
+mov ecx, 0x004AE043D \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -224,10 +224,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0F7649DAB \n\
+mov ecx, 0x0F518D1D1 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0F7649DAB \n\
+mov ecx, 0x0F518D1D1 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -245,10 +245,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x07AF2887C \n\
+mov ecx, 0x060F05954 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x07AF2887C \n\
+mov ecx, 0x060F05954 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -266,10 +266,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x022B42B28 \n\
+mov ecx, 0x0A1AF22B1 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x022B42B28 \n\
+mov ecx, 0x0A1AF22B1 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -287,10 +287,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x014469558 \n\
+mov ecx, 0x004AD5693 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x014469558 \n\
+mov ecx, 0x004AD5693 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -308,10 +308,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0CB6BEADD \n\
+mov ecx, 0x034A51D00 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0CB6BEADD \n\
+mov ecx, 0x034A51D00 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -329,10 +329,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0028DF4DD \n\
+mov ecx, 0x0AD408ACA \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0028DF4DD \n\
+mov ecx, 0x0AD408ACA \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -350,10 +350,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x03EA6CBDE \n\
+mov ecx, 0x0805DA001 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x03EA6CBDE \n\
+mov ecx, 0x0805DA001 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -371,10 +371,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0583D26E6 \n\
+mov ecx, 0x0368EE134 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0583D26E6 \n\
+mov ecx, 0x0368EE134 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -392,10 +392,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x02522D15D \n\
+mov ecx, 0x0283D1D87 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x02522D15D \n\
+mov ecx, 0x0283D1D87 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -413,10 +413,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x011958D8E \n\
+mov ecx, 0x05C1D4188 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x011958D8E \n\
+mov ecx, 0x05C1D4188 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -434,10 +434,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x048DE6F0C \n\
+mov ecx, 0x0DA5AD3C0 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x048DE6F0C \n\
+mov ecx, 0x0DA5AD3C0 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -455,10 +455,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0A6AAFC1D \n\
+mov ecx, 0x04F254987 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0A6AAFC1D \n\
+mov ecx, 0x04F254987 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -476,10 +476,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x095157F77 \n\
+mov ecx, 0x0599F6838 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x095157F77 \n\
+mov ecx, 0x0599F6838 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -497,10 +497,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00FDA326C \n\
+mov ecx, 0x0B704DAEE \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00FDA326C \n\
+mov ecx, 0x0B704DAEE \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -518,10 +518,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x041D23933 \n\
+mov ecx, 0x000952C00 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x041D23933 \n\
+mov ecx, 0x000952C00 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -539,10 +539,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x08F3D6E50 \n\
+mov ecx, 0x00DBD2C28 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x08F3D6E50 \n\
+mov ecx, 0x00DBD2C28 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -560,10 +560,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0102CEE619 \n\
+mov ecx, 0x0869F2B00 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0102CEE619 \n\
+mov ecx, 0x0869F2B00 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -581,10 +581,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0AD8D79AC \n\
+mov ecx, 0x07DE26979 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0AD8D79AC \n\
+mov ecx, 0x07DE26979 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -602,10 +602,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0AAED834C \n\
+mov ecx, 0x01F29FD57 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0AAED834C \n\
+mov ecx, 0x01F29FD57 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -623,10 +623,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0CF4F2620 \n\
+mov ecx, 0x00EA01626 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0CF4F2620 \n\
+mov ecx, 0x00EA01626 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -644,10 +644,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x06EF76164 \n\
+mov ecx, 0x0E6B0C36A \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x06EF76164 \n\
+mov ecx, 0x0E6B0C36A \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -665,10 +665,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x03ED41482 \n\
+mov ecx, 0x014C41154 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x03ED41482 \n\
+mov ecx, 0x014C41154 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -686,10 +686,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00B92515E \n\
+mov ecx, 0x0FFA5F536 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00B92515E \n\
+mov ecx, 0x0FFA5F536 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -707,10 +707,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x06AB04F60 \n\
+mov ecx, 0x0A4F12AEB \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x06AB04F60 \n\
+mov ecx, 0x0A4F12AEB \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -728,10 +728,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0C455F4EC \n\
+mov ecx, 0x001912F07 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0C455F4EC \n\
+mov ecx, 0x001912F07 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -749,10 +749,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0FCA9D433 \n\
+mov ecx, 0x00356F556 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0FCA9D433 \n\
+mov ecx, 0x00356F556 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -770,10 +770,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x01AB45A1F \n\
+mov ecx, 0x00A498760 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x01AB45A1F \n\
+mov ecx, 0x00A498760 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -791,10 +791,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00FA30E32 \n\
+mov ecx, 0x041B95814 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00FA30E32 \n\
+mov ecx, 0x041B95814 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -812,10 +812,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0E3D831EF \n\
+mov ecx, 0x0AA3A8ABC \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0E3D831EF \n\
+mov ecx, 0x0AA3A8ABC \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -833,10 +833,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x034AD1A31 \n\
+mov ecx, 0x026C81C6D \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x034AD1A31 \n\
+mov ecx, 0x026C81C6D \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -854,10 +854,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0923C6C70 \n\
+mov ecx, 0x0C6B9C824 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0923C6C70 \n\
+mov ecx, 0x0C6B9C824 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -875,10 +875,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x01C343EA5 \n\
+mov ecx, 0x00A822813 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x01C343EA5 \n\
+mov ecx, 0x00A822813 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -896,10 +896,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0608F3450 \n\
+mov ecx, 0x0ABA47EF8 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0608F3450 \n\
+mov ecx, 0x0ABA47EF8 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -917,10 +917,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0FDA3163F \n\
+mov ecx, 0x0CD9F2E0F \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0FDA3163F \n\
+mov ecx, 0x0CD9F2E0F \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -938,10 +938,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x02C9C407A \n\
+mov ecx, 0x090D09AA3 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x02C9C407A \n\
+mov ecx, 0x090D09AA3 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -959,10 +959,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0C3B0CE2B \n\
+mov ecx, 0x081AD76C8 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0C3B0CE2B \n\
+mov ecx, 0x081AD76C8 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -980,10 +980,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x02A9BE5CD \n\
+mov ecx, 0x0F6002B55 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x02A9BE5CD \n\
+mov ecx, 0x0F6002B55 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1001,10 +1001,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0091E59C7 \n\
+mov ecx, 0x078AB4A10 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0091E59C7 \n\
+mov ecx, 0x078AB4A10 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1022,10 +1022,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0BB0FC18B \n\
+mov ecx, 0x06956319D \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0BB0FC18B \n\
+mov ecx, 0x06956319D \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1043,10 +1043,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x01F997A62 \n\
+mov ecx, 0x0BF625D19 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x01F997A62 \n\
+mov ecx, 0x0BF625D19 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1064,10 +1064,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x054C29D70 \n\
+mov ecx, 0x0321B6CA0 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x054C29D70 \n\
+mov ecx, 0x0321B6CA0 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1085,10 +1085,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x01C950239 \n\
+mov ecx, 0x081066190 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x01C950239 \n\
+mov ecx, 0x081066190 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1106,10 +1106,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x023B4CD31 \n\
+mov ecx, 0x0A8339060 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x023B4CD31 \n\
+mov ecx, 0x0A8339060 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1127,10 +1127,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00E6A1681 \n\
+mov ecx, 0x09C03BC91 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00E6A1681 \n\
+mov ecx, 0x09C03BC91 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1148,10 +1148,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0D30CD39E \n\
+mov ecx, 0x012942E5F \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0D30CD39E \n\
+mov ecx, 0x012942E5F \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1169,10 +1169,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0E44735E4 \n\
+mov ecx, 0x00487F1E4 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0E44735E4 \n\
+mov ecx, 0x00487F1E4 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1190,10 +1190,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x050DFC2E8 \n\
+mov ecx, 0x0C0D0C846 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x050DFC2E8 \n\
+mov ecx, 0x0C0D0C846 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1211,10 +1211,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00992F8FD \n\
+mov ecx, 0x00B931303 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00992F8FD \n\
+mov ecx, 0x00B931303 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1232,10 +1232,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0FE3CF8A8 \n\
+mov ecx, 0x0FABBFC2B \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0FE3CF8A8 \n\
+mov ecx, 0x0FABBFC2B \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1253,10 +1253,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00A155AD8 \n\
+mov ecx, 0x0B51C4066 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00A155AD8 \n\
+mov ecx, 0x0B51C4066 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1274,10 +1274,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0C6FC32EE \n\
+mov ecx, 0x0F874C0A6 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0C6FC32EE \n\
+mov ecx, 0x0F874C0A6 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1295,10 +1295,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x03CA6232C \n\
+mov ecx, 0x0CC94EB4F \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x03CA6232C \n\
+mov ecx, 0x0CC94EB4F \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1316,10 +1316,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x003971B07 \n\
+mov ecx, 0x00392EB83 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x003971B07 \n\
+mov ecx, 0x00392EB83 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1337,10 +1337,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0973F90AD \n\
+mov ecx, 0x00E4CF53A \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0973F90AD \n\
+mov ecx, 0x00E4CF53A \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1358,10 +1358,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0F3D6C176 \n\
+mov ecx, 0x0859D9118 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0F3D6C176 \n\
+mov ecx, 0x0859D9118 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1379,10 +1379,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0B5918530 \n\
+mov ecx, 0x017813F04 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0B5918530 \n\
+mov ecx, 0x017813F04 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1400,10 +1400,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0C2B521F9 \n\
+mov ecx, 0x0CA63AD9C \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0C2B521F9 \n\
+mov ecx, 0x0CA63AD9C \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1421,10 +1421,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0358BF32A \n\
+mov ecx, 0x0DF4DEED1 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0358BF32A \n\
+mov ecx, 0x0DF4DEED1 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1442,10 +1442,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0C897152E \n\
+mov ecx, 0x07B4F7FEF \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0C897152E \n\
+mov ecx, 0x07B4F7FEF \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1463,10 +1463,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0C8A3CA33 \n\
+mov ecx, 0x01A8C1C19 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0C8A3CA33 \n\
+mov ecx, 0x01A8C1C19 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1484,10 +1484,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x054C15D50 \n\
+mov ecx, 0x0B4A151F4 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x054C15D50 \n\
+mov ecx, 0x0B4A151F4 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1505,10 +1505,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0014C04C4 \n\
+mov ecx, 0x00E912132 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0014C04C4 \n\
+mov ecx, 0x00E912132 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1526,10 +1526,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0D949BA4D \n\
+mov ecx, 0x06CDA7C68 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0D949BA4D \n\
+mov ecx, 0x06CDA7C68 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1547,10 +1547,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0128C3419 \n\
+mov ecx, 0x0726D18F5 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0128C3419 \n\
+mov ecx, 0x0726D18F5 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1568,10 +1568,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x038B8FF1A \n\
+mov ecx, 0x0D96293B7 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x038B8FF1A \n\
+mov ecx, 0x0D96293B7 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1589,10 +1589,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0E38CFC0F \n\
+mov ecx, 0x07DA26D25 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0E38CFC0F \n\
+mov ecx, 0x07DA26D25 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1610,10 +1610,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x015EB5512 \n\
+mov ecx, 0x07C730285 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x015EB5512 \n\
+mov ecx, 0x07C730285 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1631,10 +1631,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00B4EDFFE \n\
+mov ecx, 0x08F5785EE \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00B4EDFFE \n\
+mov ecx, 0x08F5785EE \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1652,10 +1652,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x02FD7D983 \n\
+mov ecx, 0x0FD0D21AF \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x02FD7D983 \n\
+mov ecx, 0x0FD0D21AF \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1673,10 +1673,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x03DA9534F \n\
+mov ecx, 0x05DCD332B \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x03DA9534F \n\
+mov ecx, 0x05DCD332B \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1694,10 +1694,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0A8602873 \n\
+mov ecx, 0x04C966C59 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0A8602873 \n\
+mov ecx, 0x04C966C59 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1715,10 +1715,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x03C85E6BB \n\
+mov ecx, 0x01EB1460D \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x03C85E6BB \n\
+mov ecx, 0x01EB1460D \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1736,10 +1736,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x078DC366D \n\
+mov ecx, 0x07AC83479 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x078DC366D \n\
+mov ecx, 0x07AC83479 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1757,10 +1757,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x023830CCF \n\
+mov ecx, 0x03A4436EB \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x023830CCF \n\
+mov ecx, 0x03A4436EB \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1778,10 +1778,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0F95E1C05 \n\
+mov ecx, 0x050D087E2 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0F95E1C05 \n\
+mov ecx, 0x050D087E2 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1799,10 +1799,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x016830504 \n\
+mov ecx, 0x0EF4EF6DB \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x016830504 \n\
+mov ecx, 0x0EF4EF6DB \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1820,10 +1820,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0765FA36D \n\
+mov ecx, 0x0E45CD0D6 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0765FA36D \n\
+mov ecx, 0x0E45CD0D6 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1841,10 +1841,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0203E2EA3 \n\
+mov ecx, 0x099A9A71B \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0203E2EA3 \n\
+mov ecx, 0x099A9A71B \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1862,10 +1862,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x052D57480 \n\
+mov ecx, 0x0D75FFF83 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x052D57480 \n\
+mov ecx, 0x0D75FFF83 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1883,10 +1883,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x01BE5DFD93 \n\
+mov ecx, 0x00DA60D39 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x01BE5DFD93 \n\
+mov ecx, 0x00DA60D39 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1904,10 +1904,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x03A150AA9 \n\
+mov ecx, 0x01E993221 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x03A150AA9 \n\
+mov ecx, 0x01E993221 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1925,10 +1925,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0B7194803 \n\
+mov ecx, 0x03673AD45 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0B7194803 \n\
+mov ecx, 0x03673AD45 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1946,10 +1946,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x010843514 \n\
+mov ecx, 0x0312B3EB8 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x010843514 \n\
+mov ecx, 0x0312B3EB8 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1967,10 +1967,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0E84EE6D5 \n\
+mov ecx, 0x0AA8B8C1F \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0E84EE6D5 \n\
+mov ecx, 0x0AA8B8C1F \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -1988,10 +1988,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x05BE22000 \n\
+mov ecx, 0x096234B77 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x05BE22000 \n\
+mov ecx, 0x096234B77 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2009,10 +2009,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x099A2E129 \n\
+mov ecx, 0x09B8C698C \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x099A2E129 \n\
+mov ecx, 0x09B8C698C \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2030,10 +2030,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0E044CCFD \n\
+mov ecx, 0x0F357F1C8 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0E044CCFD \n\
+mov ecx, 0x0F357F1C8 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2051,10 +2051,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0DF07D26F \n\
+mov ecx, 0x0F058DAC8 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0DF07D26F \n\
+mov ecx, 0x0F058DAC8 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2072,10 +2072,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x02EB0C9A3 \n\
+mov ecx, 0x024B3243F \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x02EB0C9A3 \n\
+mov ecx, 0x024B3243F \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2093,10 +2093,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x09F339E5F \n\
+mov ecx, 0x0FE93120C \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x09F339E5F \n\
+mov ecx, 0x0FE93120C \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2114,10 +2114,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0973CB876 \n\
+mov ecx, 0x0163A4611 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0973CB876 \n\
+mov ecx, 0x0163A4611 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2135,10 +2135,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0569AADFA \n\
+mov ecx, 0x0328ABDAE \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0569AADFA \n\
+mov ecx, 0x0328ABDAE \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2156,10 +2156,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00990B594 \n\
+mov ecx, 0x0555591E9 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00990B594 \n\
+mov ecx, 0x0555591E9 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2177,10 +2177,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x049853376 \n\
+mov ecx, 0x019950D18 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x049853376 \n\
+mov ecx, 0x019950D18 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2198,10 +2198,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x047EB7D28 \n\
+mov ecx, 0x00F931B1C \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x047EB7D28 \n\
+mov ecx, 0x00F931B1C \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2219,10 +2219,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x01390DDCC \n\
+mov ecx, 0x090B144F4 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x01390DDCC \n\
+mov ecx, 0x090B144F4 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2240,10 +2240,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x08DC0A159 \n\
+mov ecx, 0x08D9F4CC2 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x08DC0A159 \n\
+mov ecx, 0x08D9F4CC2 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2261,10 +2261,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x01E86542F \n\
+mov ecx, 0x0954CD7F2 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x01E86542F \n\
+mov ecx, 0x0954CD7F2 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2282,10 +2282,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x040E00A35 \n\
+mov ecx, 0x094231E0D \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x040E00A35 \n\
+mov ecx, 0x094231E0D \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2303,10 +2303,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x022D6DD4D \n\
+mov ecx, 0x00C10728A \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x022D6DD4D \n\
+mov ecx, 0x00C10728A \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2324,10 +2324,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x07F8B431A \n\
+mov ecx, 0x0B58DE571 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x07F8B431A \n\
+mov ecx, 0x0B58DE571 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2345,10 +2345,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0E0BF00E2 \n\
+mov ecx, 0x098B1E84D \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0E0BF00E2 \n\
+mov ecx, 0x098B1E84D \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2366,10 +2366,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0A9B6BE16 \n\
+mov ecx, 0x009D13A5A \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0A9B6BE16 \n\
+mov ecx, 0x009D13A5A \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2387,10 +2387,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0AD9CDB79 \n\
+mov ecx, 0x02BED6D39 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0AD9CDB79 \n\
+mov ecx, 0x02BED6D39 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2408,10 +2408,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x066E23835 \n\
+mov ecx, 0x02E947271 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x066E23835 \n\
+mov ecx, 0x02E947271 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2429,10 +2429,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0E54CDEE3 \n\
+mov ecx, 0x0E0B0E622 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0E54CDEE3 \n\
+mov ecx, 0x0E0B0E622 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2450,10 +2450,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0B111222C \n\
+mov ecx, 0x01A899698 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0B111222C \n\
+mov ecx, 0x01A899698 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2471,10 +2471,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x030B61AE8 \n\
+mov ecx, 0x000B1033E \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x030B61AE8 \n\
+mov ecx, 0x000B1033E \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2492,10 +2492,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0A65FF889 \n\
+mov ecx, 0x0A18EC572 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0A65FF889 \n\
+mov ecx, 0x0A18EC572 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2513,10 +2513,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0E870C1EC \n\
+mov ecx, 0x028B1A9AC \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0E870C1EC \n\
+mov ecx, 0x028B1A9AC \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2534,10 +2534,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x09255EA9F \n\
+mov ecx, 0x024881C03 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x09255EA9F \n\
+mov ecx, 0x024881C03 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2555,10 +2555,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0289B3A33 \n\
+mov ecx, 0x030BDD1B7 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0289B3A33 \n\
+mov ecx, 0x030BDD1B7 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2576,10 +2576,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x092C4A77E \n\
+mov ecx, 0x0B42997B3 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x092C4A77E \n\
+mov ecx, 0x0B42997B3 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2597,10 +2597,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0F66FF3E6 \n\
+mov ecx, 0x0184C3BD4 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0F66FF3E6 \n\
+mov ecx, 0x0184C3BD4 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2618,10 +2618,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00A81CAD2 \n\
+mov ecx, 0x0C101C192 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00A81CAD2 \n\
+mov ecx, 0x0C101C192 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2639,10 +2639,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x006D95411 \n\
+mov ecx, 0x00EA729EB \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x006D95411 \n\
+mov ecx, 0x00EA729EB \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2660,10 +2660,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0EE48D7EF \n\
+mov ecx, 0x00A342F8F \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0EE48D7EF \n\
+mov ecx, 0x00A342F8F \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2681,10 +2681,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x094CC5A8D \n\
+mov ecx, 0x0EF14EC9B \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x094CC5A8D \n\
+mov ecx, 0x0EF14EC9B \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2702,10 +2702,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0E037E7BC \n\
+mov ecx, 0x020AEC9BC \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0E037E7BC \n\
+mov ecx, 0x020AEC9BC \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2723,10 +2723,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0E477EFE8 \n\
+mov ecx, 0x0A536829D \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0E477EFE8 \n\
+mov ecx, 0x0A536829D \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2744,10 +2744,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x05CB4552A \n\
+mov ecx, 0x02132DE51 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x05CB4552A \n\
+mov ecx, 0x02132DE51 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2765,10 +2765,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0693F9773 \n\
+mov ecx, 0x0DD8EDB1F \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0693F9773 \n\
+mov ecx, 0x0DD8EDB1F \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2786,10 +2786,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x014884C37 \n\
+mov ecx, 0x0655675E5 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x014884C37 \n\
+mov ecx, 0x0655675E5 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2807,10 +2807,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x05CC45E55 \n\
+mov ecx, 0x00B8CEC99 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x05CC45E55 \n\
+mov ecx, 0x00B8CEC99 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2828,10 +2828,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x027123CAB \n\
+mov ecx, 0x0AA0DDF9F \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x027123CAB \n\
+mov ecx, 0x0AA0DDF9F \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2849,10 +2849,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x016B20D3A \n\
+mov ecx, 0x0D60CDD94 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x016B20D3A \n\
+mov ecx, 0x0D60CDD94 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2870,10 +2870,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0ED760C6B \n\
+mov ecx, 0x0E173D93F \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0ED760C6B \n\
+mov ecx, 0x0E173D93F \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2891,10 +2891,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0178A1718 \n\
+mov ecx, 0x00A5DE107 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0178A1718 \n\
+mov ecx, 0x00A5DE107 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2912,10 +2912,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0B1909816 \n\
+mov ecx, 0x014541FF3 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0B1909816 \n\
+mov ecx, 0x014541FF3 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2933,10 +2933,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x008946A49 \n\
+mov ecx, 0x088D770DB \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x008946A49 \n\
+mov ecx, 0x088D770DB \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2954,10 +2954,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x07B5C01B1 \n\
+mov ecx, 0x00F3D69AF \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x07B5C01B1 \n\
+mov ecx, 0x00F3D69AF \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2975,10 +2975,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x03AAA5638 \n\
+mov ecx, 0x00AAA2FE0 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x03AAA5638 \n\
+mov ecx, 0x00AAA2FE0 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -2996,10 +2996,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0E51A3345 \n\
+mov ecx, 0x00D365FEC \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0E51A3345 \n\
+mov ecx, 0x00D365FEC \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3017,10 +3017,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x055DC6B49 \n\
+mov ecx, 0x0F16BEDD3 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x055DC6B49 \n\
+mov ecx, 0x0F16BEDD3 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3038,10 +3038,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0B03B31EC \n\
+mov ecx, 0x0171797C1 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0B03B31EC \n\
+mov ecx, 0x0171797C1 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3059,10 +3059,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x029AC4F7E \n\
+mov ecx, 0x0793D77A7 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x029AC4F7E \n\
+mov ecx, 0x0793D77A7 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3080,10 +3080,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x04EB13672 \n\
+mov ecx, 0x01E6E78A2 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x04EB13672 \n\
+mov ecx, 0x01E6E78A2 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3101,10 +3101,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x033BB262D \n\
+mov ecx, 0x0E23AE7A8 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x033BB262D \n\
+mov ecx, 0x0E23AE7A8 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3122,10 +3122,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x01E58D104 \n\
+mov ecx, 0x0508F701D \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x01E58D104 \n\
+mov ecx, 0x0508F701D \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3143,10 +3143,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0D8822BC6 \n\
+mov ecx, 0x00CAE0633 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0D8822BC6 \n\
+mov ecx, 0x00CAE0633 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3164,10 +3164,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x059B04422 \n\
+mov ecx, 0x039A72E20 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x059B04422 \n\
+mov ecx, 0x039A72E20 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3185,10 +3185,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x081ADB90F \n\
+mov ecx, 0x07FE35B6D \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x081ADB90F \n\
+mov ecx, 0x07FE35B6D \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3206,10 +3206,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0A21BE2CE \n\
+mov ecx, 0x05C833654 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0A21BE2CE \n\
+mov ecx, 0x05C833654 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3227,10 +3227,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x077D6695B \n\
+mov ecx, 0x096949C02 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x077D6695B \n\
+mov ecx, 0x096949C02 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3248,10 +3248,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x064F16F6E \n\
+mov ecx, 0x0A0F25D98 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x064F16F6E \n\
+mov ecx, 0x0A0F25D98 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3269,10 +3269,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x088CD5F92 \n\
+mov ecx, 0x01F0EFD55 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x088CD5F92 \n\
+mov ecx, 0x01F0EFD55 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3290,10 +3290,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x058F15B7E \n\
+mov ecx, 0x0583059BE \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x058F15B7E \n\
+mov ecx, 0x0583059BE \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3311,10 +3311,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0E7D6389A \n\
+mov ecx, 0x0FF89EE2A \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0E7D6389A \n\
+mov ecx, 0x0FF89EE2A \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3332,10 +3332,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00E33E64F \n\
+mov ecx, 0x018B1704D \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00E33E64F \n\
+mov ecx, 0x018B1704D \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3353,10 +3353,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x018A42619 \n\
+mov ecx, 0x03C98746F \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x018A42619 \n\
+mov ecx, 0x03C98746F \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3374,10 +3374,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0B0BCC246 \n\
+mov ecx, 0x04AF68480 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0B0BCC246 \n\
+mov ecx, 0x04AF68480 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3395,10 +3395,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0135CE116 \n\
+mov ecx, 0x0623FBA8C \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0135CE116 \n\
+mov ecx, 0x0623FBA8C \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3416,10 +3416,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x079E37869 \n\
+mov ecx, 0x008911B16 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x079E37869 \n\
+mov ecx, 0x008911B16 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3437,10 +3437,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x01235DE6F \n\
+mov ecx, 0x03CADECF3 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x01235DE6F \n\
+mov ecx, 0x03CADECF3 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3458,10 +3458,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x005963FDE \n\
+mov ecx, 0x0D193409F \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x005963FDE \n\
+mov ecx, 0x0D193409F \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3479,10 +3479,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00F296DB8 \n\
+mov ecx, 0x0F6EAD07F \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00F296DB8 \n\
+mov ecx, 0x0F6EAD07F \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3500,10 +3500,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x09655BEE9 \n\
+mov ecx, 0x036A9DE35 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x09655BEE9 \n\
+mov ecx, 0x036A9DE35 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3521,10 +3521,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00716F85D \n\
+mov ecx, 0x01E9E6E63 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00716F85D \n\
+mov ecx, 0x01E9E6E63 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3542,10 +3542,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x060BC2262 \n\
+mov ecx, 0x0175D2600 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x060BC2262 \n\
+mov ecx, 0x0175D2600 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3563,10 +3563,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x04F0D5284 \n\
+mov ecx, 0x06CAD176A \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x04F0D5284 \n\
+mov ecx, 0x06CAD176A \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3584,10 +3584,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x01A5200DF \n\
+mov ecx, 0x0E3A711E4 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x01A5200DF \n\
+mov ecx, 0x0E3A711E4 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3605,10 +3605,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0393CB028 \n\
+mov ecx, 0x0C8D9D96F \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0393CB028 \n\
+mov ecx, 0x0C8D9D96F \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3626,10 +3626,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0D10CD69F \n\
+mov ecx, 0x032B03B24 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0D10CD69F \n\
+mov ecx, 0x032B03B24 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3647,10 +3647,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x01E5CE906 \n\
+mov ecx, 0x042F85040 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x01E5CE906 \n\
+mov ecx, 0x042F85040 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3668,10 +3668,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0E5659673 \n\
+mov ecx, 0x0DD7CF5F9 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0E5659673 \n\
+mov ecx, 0x0DD7CF5F9 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3689,10 +3689,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00B4E678C \n\
+mov ecx, 0x0F4AC12F9 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00B4E678C \n\
+mov ecx, 0x0F4AC12F9 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3710,10 +3710,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0E570FAE3 \n\
+mov ecx, 0x01AB723FA \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0E570FAE3 \n\
+mov ecx, 0x01AB723FA \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3731,10 +3731,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x017332B6A \n\
+mov ecx, 0x0EAD5E84C \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x017332B6A \n\
+mov ecx, 0x0EAD5E84C \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3752,10 +3752,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x019A80240 \n\
+mov ecx, 0x0D9A327D3 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x019A80240 \n\
+mov ecx, 0x0D9A327D3 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3773,10 +3773,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x074B7122C \n\
+mov ecx, 0x01A83DCDE \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x074B7122C \n\
+mov ecx, 0x01A83DCDE \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3794,10 +3794,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0409A1C4F \n\
+mov ecx, 0x0C65DF5E6 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0409A1C4F \n\
+mov ecx, 0x0C65DF5E6 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3815,10 +3815,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0CC9E2602 \n\
+mov ecx, 0x0A8A27BE6 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0CC9E2602 \n\
+mov ecx, 0x0A8A27BE6 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3836,10 +3836,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x035E66124 \n\
+mov ecx, 0x02117EE4E \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x035E66124 \n\
+mov ecx, 0x02117EE4E \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3857,10 +3857,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0742656EA \n\
+mov ecx, 0x03F5809F6 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0742656EA \n\
+mov ecx, 0x03F5809F6 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3878,10 +3878,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x010BD4667 \n\
+mov ecx, 0x038A6263B \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x010BD4667 \n\
+mov ecx, 0x038A6263B \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3899,10 +3899,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x052B396EE \n\
+mov ecx, 0x00AB9566C \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x052B396EE \n\
+mov ecx, 0x00AB9566C \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3920,10 +3920,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x07DC783AF \n\
+mov ecx, 0x054642466 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x07DC783AF \n\
+mov ecx, 0x054642466 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3941,10 +3941,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0D2BA19AC \n\
+mov ecx, 0x0323032EE \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0D2BA19AC \n\
+mov ecx, 0x0323032EE \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3962,10 +3962,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x071D583B5 \n\
+mov ecx, 0x0039E0D06 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x071D583B5 \n\
+mov ecx, 0x0039E0D06 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -3983,10 +3983,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0786322BE \n\
+mov ecx, 0x00C9F465C \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0786322BE \n\
+mov ecx, 0x00C9F465C \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4004,10 +4004,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x01774D223 \n\
+mov ecx, 0x0A044DCAF \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x01774D223 \n\
+mov ecx, 0x0A044DCAF \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4025,10 +4025,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x011B13D28 \n\
+mov ecx, 0x02BB338D2 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x011B13D28 \n\
+mov ecx, 0x02BB338D2 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4046,10 +4046,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x09E34A7BB \n\
+mov ecx, 0x016B40539 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x09E34A7BB \n\
+mov ecx, 0x016B40539 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4067,10 +4067,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0B96399DE \n\
+mov ecx, 0x0378B4F66 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0B96399DE \n\
+mov ecx, 0x0378B4F66 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4088,10 +4088,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0A4B64F29 \n\
+mov ecx, 0x05C8E7512 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0A4B64F29 \n\
+mov ecx, 0x05C8E7512 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4109,10 +4109,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x074924D47 \n\
+mov ecx, 0x0331DB507 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x074924D47 \n\
+mov ecx, 0x0331DB507 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4130,10 +4130,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x001151588 \n\
+mov ecx, 0x0F0A1E22C \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x001151588 \n\
+mov ecx, 0x0F0A1E22C \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4151,10 +4151,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x025952408 \n\
+mov ecx, 0x02D96CEF8 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x025952408 \n\
+mov ecx, 0x02D96CEF8 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4172,10 +4172,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0D670918C \n\
+mov ecx, 0x00A96D9AA \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0D670918C \n\
+mov ecx, 0x00A96D9AA \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4193,10 +4193,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x034A2D02B \n\
+mov ecx, 0x0DD52DCC1 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x034A2D02B \n\
+mov ecx, 0x0DD52DCC1 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4214,10 +4214,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x009841114 \n\
+mov ecx, 0x015840F07 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x009841114 \n\
+mov ecx, 0x015840F07 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4235,10 +4235,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x003920900 \n\
+mov ecx, 0x08313978E \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x003920900 \n\
+mov ecx, 0x08313978E \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4256,10 +4256,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x004B5CCE7 \n\
+mov ecx, 0x078D9B672 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x004B5CCE7 \n\
+mov ecx, 0x078D9B672 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4277,10 +4277,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x01A4EC31C \n\
+mov ecx, 0x0FA3F0A59 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x01A4EC31C \n\
+mov ecx, 0x0FA3F0A59 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4298,10 +4298,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0CC93EE5E \n\
+mov ecx, 0x02AA300FA \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0CC93EE5E \n\
+mov ecx, 0x02AA300FA \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4319,10 +4319,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x011BDE62F \n\
+mov ecx, 0x00A2DCF74 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x011BDE62F \n\
+mov ecx, 0x00A2DCF74 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4340,10 +4340,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x02E9B310C \n\
+mov ecx, 0x03AF2EA94 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x02E9B310C \n\
+mov ecx, 0x03AF2EA94 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4361,10 +4361,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x062DD908C \n\
+mov ecx, 0x0328A405A \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x062DD908C \n\
+mov ecx, 0x0328A405A \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4382,10 +4382,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x004CB81D3 \n\
+mov ecx, 0x0D6903E92 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x004CB81D3 \n\
+mov ecx, 0x0D6903E92 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4403,10 +4403,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x007B88DAE \n\
+mov ecx, 0x05D4D3DCE \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x007B88DAE \n\
+mov ecx, 0x05D4D3DCE \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4424,10 +4424,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0FACDACF0 \n\
+mov ecx, 0x0009C380C \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0FACDACF0 \n\
+mov ecx, 0x0009C380C \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4445,10 +4445,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0A2DD8D4F \n\
+mov ecx, 0x0E872ABA4 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0A2DD8D4F \n\
+mov ecx, 0x0E872ABA4 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4466,10 +4466,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x029BA1D12 \n\
+mov ecx, 0x0AE3BD8A0 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x029BA1D12 \n\
+mov ecx, 0x0AE3BD8A0 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4487,10 +4487,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0F965FEF2 \n\
+mov ecx, 0x00AA2D409 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0F965FEF2 \n\
+mov ecx, 0x00AA2D409 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4508,10 +4508,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00126F94D \n\
+mov ecx, 0x0F4A40CC8 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00126F94D \n\
+mov ecx, 0x0F4A40CC8 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4529,10 +4529,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0F160323B \n\
+mov ecx, 0x007EA5B2E \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0F160323B \n\
+mov ecx, 0x007EA5B2E \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4550,10 +4550,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x084B9B415 \n\
+mov ecx, 0x01CB02C33 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x084B9B415 \n\
+mov ecx, 0x01CB02C33 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4571,10 +4571,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0F76CD7F2 \n\
+mov ecx, 0x064CC6259 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0F76CD7F2 \n\
+mov ecx, 0x064CC6259 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4592,10 +4592,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0048823DD \n\
+mov ecx, 0x01A8219EF \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0048823DD \n\
+mov ecx, 0x01A8219EF \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4613,10 +4613,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00D950306 \n\
+mov ecx, 0x09DA3F7BB \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00D950306 \n\
+mov ecx, 0x09DA3F7BB \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4634,10 +4634,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00691504E \n\
+mov ecx, 0x0E81A166C \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00691504E \n\
+mov ecx, 0x0E81A166C \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4655,10 +4655,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x04DA38117 \n\
+mov ecx, 0x0CAD5AE29 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x04DA38117 \n\
+mov ecx, 0x0CAD5AE29 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4676,10 +4676,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0C415F3C9 \n\
+mov ecx, 0x0085E7D83 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0C415F3C9 \n\
+mov ecx, 0x0085E7D83 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4697,10 +4697,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x069BE1567 \n\
+mov ecx, 0x00DB34A91 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x069BE1567 \n\
+mov ecx, 0x00DB34A91 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4718,10 +4718,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x08491A72B \n\
+mov ecx, 0x0F329085D \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x08491A72B \n\
+mov ecx, 0x0F329085D \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4739,10 +4739,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0405C4CC4 \n\
+mov ecx, 0x064B9E7B4 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0405C4CC4 \n\
+mov ecx, 0x064B9E7B4 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4760,10 +4760,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00D964559 \n\
+mov ecx, 0x001A27963 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00D964559 \n\
+mov ecx, 0x001A27963 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4781,10 +4781,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x01282CC22 \n\
+mov ecx, 0x0039B2D4B \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x01282CC22 \n\
+mov ecx, 0x0039B2D4B \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4802,10 +4802,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0FF61E8E2 \n\
+mov ecx, 0x0A11D5796 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0FF61E8E2 \n\
+mov ecx, 0x0A11D5796 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4823,10 +4823,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x002DA7A2B \n\
+mov ecx, 0x0C2AF2CCF \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x002DA7A2B \n\
+mov ecx, 0x0C2AF2CCF \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4844,10 +4844,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x04BDBA8CD \n\
+mov ecx, 0x0C75FDFD5 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x04BDBA8CD \n\
+mov ecx, 0x0C75FDFD5 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4865,10 +4865,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0989B1BA4 \n\
+mov ecx, 0x0337A35E7 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0989B1BA4 \n\
+mov ecx, 0x0337A35E7 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4886,10 +4886,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00A922E03 \n\
+mov ecx, 0x0786264F7 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00A922E03 \n\
+mov ecx, 0x0786264F7 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4907,10 +4907,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0E84FA6ED \n\
+mov ecx, 0x0B49B7132 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0E84FA6ED \n\
+mov ecx, 0x0B49B7132 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4928,10 +4928,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x007AAEEF2 \n\
+mov ecx, 0x0A432B490 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x007AAEEF2 \n\
+mov ecx, 0x0A432B490 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4949,10 +4949,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x07F57B303 \n\
+mov ecx, 0x09CA2CE78 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x07F57B303 \n\
+mov ecx, 0x09CA2CE78 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4970,10 +4970,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x08D9DED10 \n\
+mov ecx, 0x0B4EA64C4 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x08D9DED10 \n\
+mov ecx, 0x0B4EA64C4 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -4991,10 +4991,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x084BFA417 \n\
+mov ecx, 0x066F34FA9 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x084BFA417 \n\
+mov ecx, 0x066F34FA9 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5012,10 +5012,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x005AB0E34 \n\
+mov ecx, 0x0D59F3005 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x005AB0E34 \n\
+mov ecx, 0x0D59F3005 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5033,10 +5033,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x01C304109 \n\
+mov ecx, 0x0AB0CE5AE \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x01C304109 \n\
+mov ecx, 0x0AB0CE5AE \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5054,10 +5054,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0B512DB0E \n\
+mov ecx, 0x0FDD419BF \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0B512DB0E \n\
+mov ecx, 0x0FDD419BF \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5075,10 +5075,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x029BEF3F6 \n\
+mov ecx, 0x00E357ACF \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x029BEF3F6 \n\
+mov ecx, 0x00E357ACF \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5096,10 +5096,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0E749E9DF \n\
+mov ecx, 0x0E8F41C98 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0E749E9DF \n\
+mov ecx, 0x0E8F41C98 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5117,10 +5117,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x06FD97754 \n\
+mov ecx, 0x0E6350F6F \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x06FD97754 \n\
+mov ecx, 0x0E6350F6F \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5138,10 +5138,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x089284184 \n\
+mov ecx, 0x0E88BF52A \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x089284184 \n\
+mov ecx, 0x0E88BF52A \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5159,10 +5159,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x06AB60A7C \n\
+mov ecx, 0x040BE3DA4 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x06AB60A7C \n\
+mov ecx, 0x040BE3DA4 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5180,10 +5180,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x096B3A70C \n\
+mov ecx, 0x079402490 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x096B3A70C \n\
+mov ecx, 0x079402490 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5201,10 +5201,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x012990011 \n\
+mov ecx, 0x0F2B30BD2 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x012990011 \n\
+mov ecx, 0x0F2B30BD2 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5222,10 +5222,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x08C178E87 \n\
+mov ecx, 0x01A5DCBFE \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x08C178E87 \n\
+mov ecx, 0x01A5DCBFE \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5243,10 +5243,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x01EB92B2E \n\
+mov ecx, 0x032A06F1A \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x01EB92B2E \n\
+mov ecx, 0x032A06F1A \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5264,10 +5264,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0161A2485 \n\
+mov ecx, 0x0298C1D15 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0161A2485 \n\
+mov ecx, 0x0298C1D15 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5285,10 +5285,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0A23199FE \n\
+mov ecx, 0x0E933D4ED \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0A23199FE \n\
+mov ecx, 0x0E933D4ED \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5306,10 +5306,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0E447D09E \n\
+mov ecx, 0x000B53818 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0E447D09E \n\
+mov ecx, 0x000B53818 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5327,10 +5327,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0BD034913 \n\
+mov ecx, 0x0D5CB8302 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0BD034913 \n\
+mov ecx, 0x0D5CB8302 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5348,10 +5348,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0E4BF28EC \n\
+mov ecx, 0x072412E82 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0E4BF28EC \n\
+mov ecx, 0x072412E82 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5369,10 +5369,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0C13CC0A4 \n\
+mov ecx, 0x02CFC1F47 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0C13CC0A4 \n\
+mov ecx, 0x02CFC1F47 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5390,10 +5390,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x065FDAE60 \n\
+mov ecx, 0x06BD091D8 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x065FDAE60 \n\
+mov ecx, 0x06BD091D8 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5411,10 +5411,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00B98CCC7 \n\
+mov ecx, 0x0B1BAFD7E \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00B98CCC7 \n\
+mov ecx, 0x0B1BAFD7E \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5432,10 +5432,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x01AD9107E \n\
+mov ecx, 0x01CE4081E \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x01AD9107E \n\
+mov ecx, 0x01CE4081E \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5453,10 +5453,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x04AD7A349 \n\
+mov ecx, 0x001443CEA \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x04AD7A349 \n\
+mov ecx, 0x001443CEA \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5474,10 +5474,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0172102BE \n\
+mov ecx, 0x0138CF6F0 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0172102BE \n\
+mov ecx, 0x0138CF6F0 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5495,10 +5495,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0B1ADA932 \n\
+mov ecx, 0x003960F01 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0B1ADA932 \n\
+mov ecx, 0x003960F01 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5516,10 +5516,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x012BC4C11 \n\
+mov ecx, 0x0F4DE07B2 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x012BC4C11 \n\
+mov ecx, 0x0F4DE07B2 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5537,10 +5537,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x074591ABA \n\
+mov ecx, 0x08EBCF861 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x074591ABA \n\
+mov ecx, 0x08EBCF861 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5558,10 +5558,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00C9C6847 \n\
+mov ecx, 0x07AE19AB3 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00C9C6847 \n\
+mov ecx, 0x07AE19AB3 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5579,10 +5579,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x054DC6E5C \n\
+mov ecx, 0x020FEA0D8 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x054DC6E5C \n\
+mov ecx, 0x020FEA0D8 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5600,10 +5600,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x09EA0B300 \n\
+mov ecx, 0x0F64DCDC3 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x09EA0B300 \n\
+mov ecx, 0x0F64DCDC3 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5621,10 +5621,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0169D6260 \n\
+mov ecx, 0x03EA57E7C \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0169D6260 \n\
+mov ecx, 0x03EA57E7C \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5642,10 +5642,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0099D1D02 \n\
+mov ecx, 0x005930F00 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0099D1D02 \n\
+mov ecx, 0x005930F00 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5663,10 +5663,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x031E02178 \n\
+mov ecx, 0x08202B6BF \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x031E02178 \n\
+mov ecx, 0x08202B6BF \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5684,10 +5684,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x024B4D4EF \n\
+mov ecx, 0x002980808 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x024B4D4EF \n\
+mov ecx, 0x002980808 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5705,10 +5705,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0C05A2120 \n\
+mov ecx, 0x00A904A49 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0C05A2120 \n\
+mov ecx, 0x00A904A49 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5726,10 +5726,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0AA9AA900 \n\
+mov ecx, 0x0229A7541 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0AA9AA900 \n\
+mov ecx, 0x0229A7541 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5747,10 +5747,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0B433BF47 \n\
+mov ecx, 0x0AFD6AA47 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0B433BF47 \n\
+mov ecx, 0x0AFD6AA47 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5768,10 +5768,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0178CD9D0 \n\
+mov ecx, 0x099BAB924 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0178CD9D0 \n\
+mov ecx, 0x099BAB924 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5789,10 +5789,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0C9E33DA4 \n\
+mov ecx, 0x0D156F2C1 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0C9E33DA4 \n\
+mov ecx, 0x0D156F2C1 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5810,10 +5810,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x05EE36E41 \n\
+mov ecx, 0x03610C255 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x05EE36E41 \n\
+mov ecx, 0x03610C255 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5831,10 +5831,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0C2EDE2B3 \n\
+mov ecx, 0x0CC83AC51 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0C2EDE2B3 \n\
+mov ecx, 0x0CC83AC51 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5852,10 +5852,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00738FD36 \n\
+mov ecx, 0x0FF40CDFE \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00738FD36 \n\
+mov ecx, 0x0FF40CDFE \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5873,10 +5873,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0FC7F0902 \n\
+mov ecx, 0x0BDBAF34F \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0FC7F0902 \n\
+mov ecx, 0x0BDBAF34F \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5894,10 +5894,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0D09DB644 \n\
+mov ecx, 0x0B31CD3C1 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0D09DB644 \n\
+mov ecx, 0x0B31CD3C1 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5915,10 +5915,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0E8D8A821 \n\
+mov ecx, 0x01EDD4C18 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0E8D8A821 \n\
+mov ecx, 0x01EDD4C18 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5936,10 +5936,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x048CA4B5C \n\
+mov ecx, 0x0FF93EE16 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x048CA4B5C \n\
+mov ecx, 0x0FF93EE16 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5957,10 +5957,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0CD8FA06E \n\
+mov ecx, 0x0CA8E29D8 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0CD8FA06E \n\
+mov ecx, 0x0CA8E29D8 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5978,10 +5978,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x09E30605C \n\
+mov ecx, 0x01A940814 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x09E30605C \n\
+mov ecx, 0x01A940814 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -5999,10 +5999,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0DB441A16 \n\
+mov ecx, 0x036ADB6BF \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0DB441A16 \n\
+mov ecx, 0x036ADB6BF \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6020,10 +6020,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0CACEFD5D \n\
+mov ecx, 0x08CB7548A \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0CACEFD5D \n\
+mov ecx, 0x08CB7548A \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6041,10 +6041,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00396888F \n\
+mov ecx, 0x07BD96374 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00396888F \n\
+mov ecx, 0x07BD96374 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6062,10 +6062,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00A1D34B5 \n\
+mov ecx, 0x00AE52875 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00A1D34B5 \n\
+mov ecx, 0x00AE52875 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6083,10 +6083,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00A929FB0 \n\
+mov ecx, 0x019A68BA6 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00A929FB0 \n\
+mov ecx, 0x019A68BA6 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6104,10 +6104,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0D8880239 \n\
+mov ecx, 0x04CDA11E2 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0D8880239 \n\
+mov ecx, 0x04CDA11E2 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6125,10 +6125,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x09E05BC99 \n\
+mov ecx, 0x0CA4ED4C3 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x09E05BC99 \n\
+mov ecx, 0x0CA4ED4C3 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6146,10 +6146,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00406029B \n\
+mov ecx, 0x026BA0017 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00406029B \n\
+mov ecx, 0x026BA0017 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6167,10 +6167,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0020050BE \n\
+mov ecx, 0x018BF560D \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0020050BE \n\
+mov ecx, 0x018BF560D \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6188,10 +6188,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x004130C89 \n\
+mov ecx, 0x0DB03F5D8 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x004130C89 \n\
+mov ecx, 0x0DB03F5D8 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6209,10 +6209,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0D20DF2D3 \n\
+mov ecx, 0x00248C518 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0D20DF2D3 \n\
+mov ecx, 0x00248C518 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6230,10 +6230,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0192279D1 \n\
+mov ecx, 0x07E22AA7F \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0192279D1 \n\
+mov ecx, 0x07E22AA7F \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6251,10 +6251,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00791E1C3 \n\
+mov ecx, 0x0678C673B \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00791E1C3 \n\
+mov ecx, 0x0678C673B \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6272,10 +6272,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x02CD0DB5C \n\
+mov ecx, 0x07AE180BE \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x02CD0DB5C \n\
+mov ecx, 0x07AE180BE \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6293,10 +6293,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00CB6CCC5 \n\
+mov ecx, 0x0006AE739 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00CB6CCC5 \n\
+mov ecx, 0x0006AE739 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6314,10 +6314,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x048D1B28E \n\
+mov ecx, 0x048B5AAFA \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x048D1B28E \n\
+mov ecx, 0x048B5AAFA \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6335,10 +6335,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0098CC9DB \n\
+mov ecx, 0x01B863831 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0098CC9DB \n\
+mov ecx, 0x01B863831 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6356,10 +6356,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x01AB5D195 \n\
+mov ecx, 0x03AA53105 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x01AB5D195 \n\
+mov ecx, 0x03AA53105 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6377,10 +6377,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0D2D5D440 \n\
+mov ecx, 0x09E207C70 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0D2D5D440 \n\
+mov ecx, 0x09E207C70 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6398,10 +6398,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0D6B931EE \n\
+mov ecx, 0x0F0AC1F2E \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0D6B931EE \n\
+mov ecx, 0x0F0AC1F2E \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6419,10 +6419,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0ACB0C7BE \n\
+mov ecx, 0x034A8C0B6 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0ACB0C7BE \n\
+mov ecx, 0x034A8C0B6 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6440,10 +6440,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x02196A18A \n\
+mov ecx, 0x03A1A38A4 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x02196A18A \n\
+mov ecx, 0x03A1A38A4 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6461,10 +6461,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0020513EF \n\
+mov ecx, 0x098D4754D \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0020513EF \n\
+mov ecx, 0x098D4754D \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6482,10 +6482,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x077470AC1 \n\
+mov ecx, 0x0EB50CAFE \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x077470AC1 \n\
+mov ecx, 0x0EB50CAFE \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6503,10 +6503,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x08B9E7C9A \n\
+mov ecx, 0x01307ED6B \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x08B9E7C9A \n\
+mov ecx, 0x01307ED6B \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6524,10 +6524,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00A9BE4C6 \n\
+mov ecx, 0x01BDB91C3 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00A9BE4C6 \n\
+mov ecx, 0x01BDB91C3 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6545,10 +6545,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x032903C34 \n\
+mov ecx, 0x0F4332E0C \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x032903C34 \n\
+mov ecx, 0x0F4332E0C \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6566,10 +6566,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x07682ACD0 \n\
+mov ecx, 0x08853ECAF \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x07682ACD0 \n\
+mov ecx, 0x08853ECAF \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6587,10 +6587,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x04B637DD9 \n\
+mov ecx, 0x0FE50C8DD \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x04B637DD9 \n\
+mov ecx, 0x0FE50C8DD \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6608,10 +6608,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x09B396272 \n\
+mov ecx, 0x0BBAF9533 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x09B396272 \n\
+mov ecx, 0x0BBAF9533 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6629,10 +6629,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0FDDC2DE8 \n\
+mov ecx, 0x0D873AE60 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0FDDC2DE8 \n\
+mov ecx, 0x0D873AE60 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6650,10 +6650,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x008B96472 \n\
+mov ecx, 0x0C979FDE9 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x008B96472 \n\
+mov ecx, 0x0C979FDE9 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6671,10 +6671,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0D13DB435 \n\
+mov ecx, 0x0D6BDD720 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0D13DB435 \n\
+mov ecx, 0x0D6BDD720 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6692,10 +6692,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0B8D9C539 \n\
+mov ecx, 0x03C8F491F \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0B8D9C539 \n\
+mov ecx, 0x03C8F491F \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6713,10 +6713,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0D651E9F2 \n\
+mov ecx, 0x08B5490C3 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0D651E9F2 \n\
+mov ecx, 0x08B5490C3 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6734,10 +6734,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0DB44F9DA \n\
+mov ecx, 0x0813EB182 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0DB44F9DA \n\
+mov ecx, 0x0813EB182 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6755,10 +6755,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0A538AABB \n\
+mov ecx, 0x0C28CC302 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0A538AABB \n\
+mov ecx, 0x0C28CC302 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6776,10 +6776,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x01EB789B6 \n\
+mov ecx, 0x0F5AB08DB \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x01EB789B6 \n\
+mov ecx, 0x0F5AB08DB \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6797,10 +6797,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x076EC1431 \n\
+mov ecx, 0x078E11A31 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x076EC1431 \n\
+mov ecx, 0x078E11A31 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6818,10 +6818,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x029B0E7E0 \n\
+mov ecx, 0x009A17D28 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x029B0E7E0 \n\
+mov ecx, 0x009A17D28 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6839,10 +6839,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00C5218CF \n\
+mov ecx, 0x07F7005F2 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00C5218CF \n\
+mov ecx, 0x07F7005F2 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6860,10 +6860,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0A8365A2B \n\
+mov ecx, 0x02FB1241C \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0A8365A2B \n\
+mov ecx, 0x02FB1241C \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6881,10 +6881,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x09E3C579E \n\
+mov ecx, 0x084BC1A88 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x09E3C579E \n\
+mov ecx, 0x084BC1A88 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6902,10 +6902,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x08C96EA06 \n\
+mov ecx, 0x062C86257 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x08C96EA06 \n\
+mov ecx, 0x062C86257 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6923,10 +6923,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x07A91453E \n\
+mov ecx, 0x0ECA708E9 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x07A91453E \n\
+mov ecx, 0x0ECA708E9 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6944,10 +6944,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00AFB1769 \n\
+mov ecx, 0x02EBA1109 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00AFB1769 \n\
+mov ecx, 0x02EBA1109 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6965,10 +6965,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0963399A0 \n\
+mov ecx, 0x09A1BB5B8 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0963399A0 \n\
+mov ecx, 0x09A1BB5B8 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -6986,10 +6986,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0EEBBE53D \n\
+mov ecx, 0x0B5114A7E \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0EEBBE53D \n\
+mov ecx, 0x0B5114A7E \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7007,10 +7007,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00B87C6D3 \n\
+mov ecx, 0x0616EA2D5 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00B87C6D3 \n\
+mov ecx, 0x0616EA2D5 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7028,10 +7028,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0772C96B0 \n\
+mov ecx, 0x0412B5086 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0772C96B0 \n\
+mov ecx, 0x0412B5086 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7049,10 +7049,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x010947812 \n\
+mov ecx, 0x0E96E3F53 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x010947812 \n\
+mov ecx, 0x0E96E3F53 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7070,10 +7070,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0C95FC9FE \n\
+mov ecx, 0x0319F0D32 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0C95FC9FE \n\
+mov ecx, 0x0319F0D32 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7091,10 +7091,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x08BB5B9FB \n\
+mov ecx, 0x00827289A \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x08BB5B9FB \n\
+mov ecx, 0x00827289A \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7112,10 +7112,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x091ABB6F7 \n\
+mov ecx, 0x00215038C \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x091ABB6F7 \n\
+mov ecx, 0x00215038C \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7133,10 +7133,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x08716AD59 \n\
+mov ecx, 0x00E9CD9AE \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x08716AD59 \n\
+mov ecx, 0x00E9CD9AE \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7154,10 +7154,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x086B9BEF5 \n\
+mov ecx, 0x094B873C4 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x086B9BEF5 \n\
+mov ecx, 0x094B873C4 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7175,10 +7175,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0069D86B6 \n\
+mov ecx, 0x00E9C2F18 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0069D86B6 \n\
+mov ecx, 0x00E9C2F18 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7196,10 +7196,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0002A4CFF \n\
+mov ecx, 0x01B855130 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0002A4CFF \n\
+mov ecx, 0x01B855130 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7217,10 +7217,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x010EA582A \n\
+mov ecx, 0x090921BAE \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x010EA582A \n\
+mov ecx, 0x090921BAE \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7238,10 +7238,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x012081297 \n\
+mov ecx, 0x0C44D0A11 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x012081297 \n\
+mov ecx, 0x0C44D0A11 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7259,10 +7259,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0C685D537 \n\
+mov ecx, 0x072BB40E8 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0C685D537 \n\
+mov ecx, 0x072BB40E8 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7280,10 +7280,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x018037A0F \n\
+mov ecx, 0x01F871B16 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x018037A0F \n\
+mov ecx, 0x01F871B16 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7301,10 +7301,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x055B8097C \n\
+mov ecx, 0x0BCA07195 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x055B8097C \n\
+mov ecx, 0x0BCA07195 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7322,10 +7322,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00892543F \n\
+mov ecx, 0x00CDAC37B \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00892543F \n\
+mov ecx, 0x00CDAC37B \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7343,10 +7343,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0D651D7C2 \n\
+mov ecx, 0x0BB9442FE \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0D651D7C2 \n\
+mov ecx, 0x0BB9442FE \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7364,10 +7364,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x069D16043 \n\
+mov ecx, 0x0486273E5 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x069D16043 \n\
+mov ecx, 0x0486273E5 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7385,10 +7385,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x071EE9685 \n\
+mov ecx, 0x0086F160D \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x071EE9685 \n\
+mov ecx, 0x0086F160D \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7406,10 +7406,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x069B70354 \n\
+mov ecx, 0x067C27067 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x069B70354 \n\
+mov ecx, 0x067C27067 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7427,10 +7427,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x06BB46528 \n\
+mov ecx, 0x003B39B92 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x06BB46528 \n\
+mov ecx, 0x003B39B92 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7448,10 +7448,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x01FB52134 \n\
+mov ecx, 0x0858F851D \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x01FB52134 \n\
+mov ecx, 0x0858F851D \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7469,10 +7469,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0AA3EA3A2 \n\
+mov ecx, 0x078F082FE \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0AA3EA3A2 \n\
+mov ecx, 0x078F082FE \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7490,10 +7490,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x07EE15774 \n\
+mov ecx, 0x03EB51926 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x07EE15774 \n\
+mov ecx, 0x03EB51926 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7511,10 +7511,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x094A3F471 \n\
+mov ecx, 0x09CABCC69 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x094A3F471 \n\
+mov ecx, 0x09CABCC69 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7532,10 +7532,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x06CCEA288 \n\
+mov ecx, 0x0C092F228 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x06CCEA288 \n\
+mov ecx, 0x0C092F228 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7553,10 +7553,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x04024538C \n\
+mov ecx, 0x00060FFF6 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x04024538C \n\
+mov ecx, 0x00060FFF6 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7574,10 +7574,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x06AFA85AD \n\
+mov ecx, 0x0BC38A7BB \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x06AFA85AD \n\
+mov ecx, 0x0BC38A7BB \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7595,10 +7595,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0633CAD60 \n\
+mov ecx, 0x01E2262C8 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0633CAD60 \n\
+mov ecx, 0x01E2262C8 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7616,10 +7616,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x05EE37B7F \n\
+mov ecx, 0x0C105205E \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x05EE37B7F \n\
+mov ecx, 0x0C105205E \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7637,10 +7637,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0F778C9F1 \n\
+mov ecx, 0x01E8B120A \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0F778C9F1 \n\
+mov ecx, 0x01E8B120A \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7658,10 +7658,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x062F05F50 \n\
+mov ecx, 0x060F14F22 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x062F05F50 \n\
+mov ecx, 0x060F14F22 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7679,10 +7679,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x06EF0676E \n\
+mov ecx, 0x05AF0475E \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x06EF0676E \n\
+mov ecx, 0x05AF0475E \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7700,10 +7700,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x08A2195B2 \n\
+mov ecx, 0x0108A7760 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x08A2195B2 \n\
+mov ecx, 0x0108A7760 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7721,10 +7721,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x01C429076 \n\
+mov ecx, 0x0ACA3D026 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x01C429076 \n\
+mov ecx, 0x0ACA3D026 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7742,10 +7742,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x07EAA1F50 \n\
+mov ecx, 0x025CF1878 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x07EAA1F50 \n\
+mov ecx, 0x025CF1878 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7763,10 +7763,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0D12F37BA \n\
+mov ecx, 0x059FB5E70 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0D12F37BA \n\
+mov ecx, 0x059FB5E70 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7784,10 +7784,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x05EC85E5F \n\
+mov ecx, 0x0FE64D8ED \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x05EC85E5F \n\
+mov ecx, 0x0FE64D8ED \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7805,10 +7805,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0964B681E \n\
+mov ecx, 0x018854646 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0964B681E \n\
+mov ecx, 0x018854646 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7826,10 +7826,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00F96E984 \n\
+mov ecx, 0x0AFB6B025 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00F96E984 \n\
+mov ecx, 0x0AFB6B025 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7847,10 +7847,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x02CA8701B \n\
+mov ecx, 0x0FFAFE704 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x02CA8701B \n\
+mov ecx, 0x0FFAFE704 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7868,10 +7868,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00D450DD4 \n\
+mov ecx, 0x01E57DF04 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00D450DD4 \n\
+mov ecx, 0x01E57DF04 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7889,10 +7889,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x005C180D2 \n\
+mov ecx, 0x0032E1982 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x005C180D2 \n\
+mov ecx, 0x0032E1982 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7910,10 +7910,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x066FE5744 \n\
+mov ecx, 0x041BF6024 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x066FE5744 \n\
+mov ecx, 0x041BF6024 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7931,10 +7931,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x031BBFDCF \n\
+mov ecx, 0x0AB996EC5 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x031BBFDCF \n\
+mov ecx, 0x0AB996EC5 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7952,10 +7952,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x02AB6171D \n\
+mov ecx, 0x0EE72E3F5 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x02AB6171D \n\
+mov ecx, 0x0EE72E3F5 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7973,10 +7973,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0DE4DC7A0 \n\
+mov ecx, 0x0F620DC7E \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0DE4DC7A0 \n\
+mov ecx, 0x0F620DC7E \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -7994,10 +7994,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0329C2233 \n\
+mov ecx, 0x068B8164B \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0329C2233 \n\
+mov ecx, 0x068B8164B \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8015,10 +8015,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x073CD5B57 \n\
+mov ecx, 0x00F3279B7 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x073CD5B57 \n\
+mov ecx, 0x00F3279B7 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8036,10 +8036,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x017953D01 \n\
+mov ecx, 0x04F186D8F \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x017953D01 \n\
+mov ecx, 0x04F186D8F \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8057,10 +8057,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0207226C3 \n\
+mov ecx, 0x00F43F70F \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0207226C3 \n\
+mov ecx, 0x00F43F70F \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8078,10 +8078,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0E3526281 \n\
+mov ecx, 0x0004CE6D8 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0E3526281 \n\
+mov ecx, 0x0004CE6D8 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8099,10 +8099,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x034963C39 \n\
+mov ecx, 0x0338B2F32 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x034963C39 \n\
+mov ecx, 0x0338B2F32 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8120,10 +8120,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0229809D4 \n\
+mov ecx, 0x0D48F0430 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0229809D4 \n\
+mov ecx, 0x0D48F0430 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8141,10 +8141,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x024B75F38 \n\
+mov ecx, 0x025B0021B \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x024B75F38 \n\
+mov ecx, 0x025B0021B \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8162,10 +8162,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x043DE7109 \n\
+mov ecx, 0x002A0929B \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x043DE7109 \n\
+mov ecx, 0x002A0929B \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8183,10 +8183,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0A91B6FBA \n\
+mov ecx, 0x083304E1A \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0A91B6FBA \n\
+mov ecx, 0x083304E1A \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8204,10 +8204,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0218D1735 \n\
+mov ecx, 0x0049BFB9A \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0218D1735 \n\
+mov ecx, 0x0049BFB9A \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8225,10 +8225,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x03E6540BD \n\
+mov ecx, 0x074D0140A \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x03E6540BD \n\
+mov ecx, 0x074D0140A \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8246,10 +8246,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x074CC93A2 \n\
+mov ecx, 0x020BE5C31 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x074CC93A2 \n\
+mov ecx, 0x020BE5C31 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8267,10 +8267,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00EB0323D \n\
+mov ecx, 0x0CF8EC975 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00EB0323D \n\
+mov ecx, 0x0CF8EC975 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8288,10 +8288,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x027973716 \n\
+mov ecx, 0x0A861FCA3 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x027973716 \n\
+mov ecx, 0x0A861FCA3 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8309,10 +8309,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x068559059 \n\
+mov ecx, 0x000AD2811 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x068559059 \n\
+mov ecx, 0x000AD2811 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8330,10 +8330,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0099B2C2D \n\
+mov ecx, 0x0B922BEB9 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0099B2C2D \n\
+mov ecx, 0x0B922BEB9 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8351,10 +8351,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0FF54C7D8 \n\
+mov ecx, 0x024841629 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0FF54C7D8 \n\
+mov ecx, 0x024841629 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8372,10 +8372,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0AE9B3988 \n\
+mov ecx, 0x0E2541428 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0AE9B3988 \n\
+mov ecx, 0x0E2541428 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8393,10 +8393,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00531159C \n\
+mov ecx, 0x001510DC8 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00531159C \n\
+mov ecx, 0x001510DC8 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8414,10 +8414,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0F357F3C1 \n\
+mov ecx, 0x022B56062 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0F357F3C1 \n\
+mov ecx, 0x022B56062 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8435,10 +8435,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x07355266E \n\
+mov ecx, 0x01FAA092A \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x07355266E \n\
+mov ecx, 0x01FAA092A \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8456,10 +8456,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x04886065F \n\
+mov ecx, 0x0628C601D \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x04886065F \n\
+mov ecx, 0x0628C601D \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8477,10 +8477,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0BB65C7A8 \n\
+mov ecx, 0x083BF6FA2 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0BB65C7A8 \n\
+mov ecx, 0x083BF6FA2 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8498,10 +8498,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0FB90F506 \n\
+mov ecx, 0x01B8B736B \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0FB90F506 \n\
+mov ecx, 0x01B8B736B \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8519,10 +8519,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0DB4AD3C5 \n\
+mov ecx, 0x0070AEF65 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0DB4AD3C5 \n\
+mov ecx, 0x0070AEF65 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8540,10 +8540,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0F4BF6DBB \n\
+mov ecx, 0x0D5022B59 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0F4BF6DBB \n\
+mov ecx, 0x0D5022B59 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8561,10 +8561,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x03EA41FF3 \n\
+mov ecx, 0x056C83A13 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x03EA41FF3 \n\
+mov ecx, 0x056C83A13 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8582,10 +8582,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0A156DDD2 \n\
+mov ecx, 0x050DB1DEE \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0A156DDD2 \n\
+mov ecx, 0x050DB1DEE \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8603,10 +8603,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x02A81C395 \n\
+mov ecx, 0x06AD01B2F \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x02A81C395 \n\
+mov ecx, 0x06AD01B2F \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8624,10 +8624,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x05EB2462B \n\
+mov ecx, 0x010B04471 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x05EB2462B \n\
+mov ecx, 0x010B04471 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8645,10 +8645,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x02232329B \n\
+mov ecx, 0x089558FC2 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x02232329B \n\
+mov ecx, 0x089558FC2 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8666,10 +8666,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0DE5F0418 \n\
+mov ecx, 0x0960F582C \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0DE5F0418 \n\
+mov ecx, 0x0960F582C \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8687,10 +8687,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0FA40C2CC \n\
+mov ecx, 0x0FC562B4A \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0FA40C2CC \n\
+mov ecx, 0x0FC562B4A \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8708,10 +8708,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x03C972B1C \n\
+mov ecx, 0x0851AF0F2 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x03C972B1C \n\
+mov ecx, 0x0851AF0F2 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8729,10 +8729,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0978AC356 \n\
+mov ecx, 0x077E8A0B7 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0978AC356 \n\
+mov ecx, 0x077E8A0B7 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8750,10 +8750,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0349A4F8F \n\
+mov ecx, 0x01A4A1CDF \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0349A4F8F \n\
+mov ecx, 0x01A4A1CDF \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8771,10 +8771,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x01CA3F6D2 \n\
+mov ecx, 0x032119E5F \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x01CA3F6D2 \n\
+mov ecx, 0x032119E5F \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8792,10 +8792,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x086A2D69F \n\
+mov ecx, 0x0AA3EA39B \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x086A2D69F \n\
+mov ecx, 0x0AA3EA39B \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8813,10 +8813,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x09D966489 \n\
+mov ecx, 0x004BA7256 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x09D966489 \n\
+mov ecx, 0x004BA7256 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8834,10 +8834,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x01DA4DA2D \n\
+mov ecx, 0x03BA4D809 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x01DA4DA2D \n\
+mov ecx, 0x03BA4D809 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8855,10 +8855,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x026B9998E \n\
+mov ecx, 0x0F29FC82D \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x026B9998E \n\
+mov ecx, 0x0F29FC82D \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8876,10 +8876,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x03CAB3C3D \n\
+mov ecx, 0x0D7B1DB2B \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x03CAB3C3D \n\
+mov ecx, 0x0D7B1DB2B \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8897,10 +8897,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0F1CF72F3 \n\
+mov ecx, 0x009955728 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0F1CF72F3 \n\
+mov ecx, 0x009955728 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8918,10 +8918,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00A9CC2BA \n\
+mov ecx, 0x0E2BABC79 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00A9CC2BA \n\
+mov ecx, 0x0E2BABC79 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8939,10 +8939,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x03924D47D \n\
+mov ecx, 0x0D73FDEBB \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x03924D47D \n\
+mov ecx, 0x0D73FDEBB \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8960,10 +8960,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x090BC8003 \n\
+mov ecx, 0x0389160BC \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x090BC8003 \n\
+mov ecx, 0x0389160BC \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -8981,10 +8981,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x08C02BABA \n\
+mov ecx, 0x0CCA2C85F \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x08C02BABA \n\
+mov ecx, 0x0CCA2C85F \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9002,10 +9002,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x07CA8145F \n\
+mov ecx, 0x099BDA111 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x07CA8145F \n\
+mov ecx, 0x099BDA111 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9023,10 +9023,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x03E850E39 \n\
+mov ecx, 0x0E2BC03C0 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x03E850E39 \n\
+mov ecx, 0x0E2BC03C0 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9044,10 +9044,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0CC9D0F3B \n\
+mov ecx, 0x0801A473A \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0CC9D0F3B \n\
+mov ecx, 0x0801A473A \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9065,10 +9065,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x010B49B84 \n\
+mov ecx, 0x004930E04 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x010B49B84 \n\
+mov ecx, 0x004930E04 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9086,10 +9086,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0CC5EFDC4 \n\
+mov ecx, 0x036A6D1FA \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0CC5EFDC4 \n\
+mov ecx, 0x036A6D1FA \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9107,10 +9107,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0C6BBDF57 \n\
+mov ecx, 0x0C2B9CD28 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0C6BBDF57 \n\
+mov ecx, 0x0C2B9CD28 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9128,10 +9128,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x014B83629 \n\
+mov ecx, 0x0C6694B40 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x014B83629 \n\
+mov ecx, 0x0C6694B40 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9149,10 +9149,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x047D16953 \n\
+mov ecx, 0x0FB9002C6 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x047D16953 \n\
+mov ecx, 0x0FB9002C6 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9170,10 +9170,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00EC2F49E \n\
+mov ecx, 0x018C6CB7A \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00EC2F49E \n\
+mov ecx, 0x018C6CB7A \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9191,10 +9191,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x07EA07C3D \n\
+mov ecx, 0x013B9C6FB \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x07EA07C3D \n\
+mov ecx, 0x013B9C6FB \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9212,10 +9212,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0F2C58F34 \n\
+mov ecx, 0x02D5738DE \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0F2C58F34 \n\
+mov ecx, 0x02D5738DE \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9233,10 +9233,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x024AE2623 \n\
+mov ecx, 0x004C91245 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x024AE2623 \n\
+mov ecx, 0x004C91245 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9254,10 +9254,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0CC1ED09E \n\
+mov ecx, 0x0CA18DA90 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0CC1ED09E \n\
+mov ecx, 0x0CA18DA90 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9275,10 +9275,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0BF914486 \n\
+mov ecx, 0x0058C255B \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0BF914486 \n\
+mov ecx, 0x0058C255B \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9296,10 +9296,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0721347BE \n\
+mov ecx, 0x0B2B05EB5 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0721347BE \n\
+mov ecx, 0x0B2B05EB5 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9317,10 +9317,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x007BB766F \n\
+mov ecx, 0x07BA62213 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x007BB766F \n\
+mov ecx, 0x07BA62213 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9338,10 +9338,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x018AB3010 \n\
+mov ecx, 0x014B74E1C \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x018AB3010 \n\
+mov ecx, 0x014B74E1C \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9359,10 +9359,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0082969B1 \n\
+mov ecx, 0x0152E229F \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0082969B1 \n\
+mov ecx, 0x0152E229F \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9380,10 +9380,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0B92132FC \n\
+mov ecx, 0x08A3B7E1D \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0B92132FC \n\
+mov ecx, 0x08A3B7E1D \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9401,10 +9401,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x07B98ADC5 \n\
+mov ecx, 0x0D7B1E70E \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x07B98ADC5 \n\
+mov ecx, 0x0D7B1E70E \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9422,10 +9422,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x009990733 \n\
+mov ecx, 0x069246882 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x009990733 \n\
+mov ecx, 0x069246882 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9443,10 +9443,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00A5B00DB \n\
+mov ecx, 0x08B1B879F \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00A5B00DB \n\
+mov ecx, 0x08B1B879F \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9464,10 +9464,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x09A91C446 \n\
+mov ecx, 0x0A29110AA \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x09A91C446 \n\
+mov ecx, 0x0A29110AA \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9485,10 +9485,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0D344D0DD \n\
+mov ecx, 0x0EFBD9C60 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0D344D0DD \n\
+mov ecx, 0x0EFBD9C60 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9506,10 +9506,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x066C9F2FE \n\
+mov ecx, 0x0A2C39053 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x066C9F2FE \n\
+mov ecx, 0x0A2C39053 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9527,10 +9527,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x09F93E505 \n\
+mov ecx, 0x011803113 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x09F93E505 \n\
+mov ecx, 0x011803113 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9548,10 +9548,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0ACB3E812 \n\
+mov ecx, 0x0069695A1 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0ACB3E812 \n\
+mov ecx, 0x0069695A1 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9569,10 +9569,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x01085371E \n\
+mov ecx, 0x0CEC3C958 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x01085371E \n\
+mov ecx, 0x0CEC3C958 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9590,10 +9590,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0B73DA6BB \n\
+mov ecx, 0x0BA114562 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0B73DA6BB \n\
+mov ecx, 0x0BA114562 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9611,10 +9611,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x044954E00 \n\
+mov ecx, 0x00554EE46 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x044954E00 \n\
+mov ecx, 0x00554EE46 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9632,10 +9632,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x08315B9B2 \n\
+mov ecx, 0x0930FB190 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x08315B9B2 \n\
+mov ecx, 0x0930FB190 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9653,10 +9653,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0F4B1D4EF \n\
+mov ecx, 0x024362AA9 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0F4B1D4EF \n\
+mov ecx, 0x024362AA9 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9674,10 +9674,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x04E131538 \n\
+mov ecx, 0x01EC4D49E \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x04E131538 \n\
+mov ecx, 0x01EC4D49E \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9695,10 +9695,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x041CF4952 \n\
+mov ecx, 0x073C11532 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x041CF4952 \n\
+mov ecx, 0x073C11532 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9716,10 +9716,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x05D0961A3 \n\
+mov ecx, 0x07EA619B3 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x05D0961A3 \n\
+mov ecx, 0x07EA619B3 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9737,10 +9737,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0A206BCAF \n\
+mov ecx, 0x010B91215 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0A206BCAF \n\
+mov ecx, 0x010B91215 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9758,10 +9758,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x08099DE55 \n\
+mov ecx, 0x008972E03 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x08099DE55 \n\
+mov ecx, 0x008972E03 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9779,10 +9779,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0174CD316 \n\
+mov ecx, 0x000E8263D \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0174CD316 \n\
+mov ecx, 0x000E8263D \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9800,10 +9800,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0E9569349 \n\
+mov ecx, 0x0088BE3C4 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0E9569349 \n\
+mov ecx, 0x0088BE3C4 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9821,10 +9821,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x08694D44E \n\
+mov ecx, 0x050982464 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x08694D44E \n\
+mov ecx, 0x050982464 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9842,10 +9842,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0C60CCF98 \n\
+mov ecx, 0x00E8C0718 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0C60CCF98 \n\
+mov ecx, 0x00E8C0718 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9863,10 +9863,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0124DF03B \n\
+mov ecx, 0x030A31730 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0124DF03B \n\
+mov ecx, 0x030A31730 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9884,10 +9884,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x00F5D17D7 \n\
+mov ecx, 0x0EF5C724C \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x00F5D17D7 \n\
+mov ecx, 0x0EF5C724C \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9905,10 +9905,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x074AA567B \n\
+mov ecx, 0x00E96505F \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x074AA567B \n\
+mov ecx, 0x00E96505F \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9926,10 +9926,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0C881EE55 \n\
+mov ecx, 0x0900CD4DF \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0C881EE55 \n\
+mov ecx, 0x0900CD4DF \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9947,10 +9947,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0808559CF \n\
+mov ecx, 0x0DA64052A \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0808559CF \n\
+mov ecx, 0x0DA64052A \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9968,10 +9968,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0C5893EE2 \n\
+mov ecx, 0x0BBEB6740 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0C5893EE2 \n\
+mov ecx, 0x0BBEB6740 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -9989,10 +9989,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0539E1B22 \n\
+mov ecx, 0x015997F64 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0539E1B22 \n\
+mov ecx, 0x015997F64 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -10010,10 +10010,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x06739AA60 \n\
+mov ecx, 0x0FD9F1A0F \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x06739AA60 \n\
+mov ecx, 0x0FD9F1A0F \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -10031,10 +10031,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x045A10570 \n\
+mov ecx, 0x015D6194A \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x045A10570 \n\
+mov ecx, 0x015D6194A \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -10052,10 +10052,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x001095ECC \n\
+mov ecx, 0x0868C9D1C \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x001095ECC \n\
+mov ecx, 0x0868C9D1C \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -10073,10 +10073,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0E96EBE5E \n\
+mov ecx, 0x0B020A793 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0E96EBE5E \n\
+mov ecx, 0x0B020A793 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -10094,10 +10094,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0B0AD6FE9 \n\
+mov ecx, 0x090431870 \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0B0AD6FE9 \n\
+mov ecx, 0x090431870 \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
@@ -10115,10 +10115,10 @@ mov [rsp+16], rdx \n\
 mov [rsp+24], r8 \n\
 mov [rsp+32], r9 \n\
 sub rsp, 0x28 \n\
-mov ecx, 0x0F34DB5F2 \n\
+mov ecx, 0x06FFF110A \n\
 call SW3_GetSyscallAddress \n\
 mov r11, rax \n\
-mov ecx, 0x0F34DB5F2 \n\
+mov ecx, 0x06FFF110A \n\
 call SW3_GetSyscallNumber \n\
 add rsp, 0x28 \n\
 mov rcx, [rsp+8] \n\
