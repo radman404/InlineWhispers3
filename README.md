@@ -1,6 +1,9 @@
 # InlineWhispers3
 InlineWhispers3 is an updated version of [InlineWhispers2](https://github.com/Sh0ckFR/InlineWhispers2), designed to work with Indirect System Calls in Cobalt Strike's Beacon Object Files (BOFs) using [SysWhispers3](https://github.com/klezVirus/SysWhispers3). This tool helps changing SysWhispers3 generated files to be BOF compatible.
 
+### Why InlineWhispers3?
+The reason for developing InlineWhispers3 (an updated version of InlineWhispers/InlineWhispers2) is to leverage the advanced features of SysWhispers3, such as indirect syscalls, in red teaming with Beacon Object Files. InlineWhispers2 often gets detected due to its use of direct system calls by certain EDR systems. Indirect system calls provide a more sophisticated method for executing system calls on Windows, significantly enhancing EDR evasion.
+
 ## How to set this up and run this?
 
 
