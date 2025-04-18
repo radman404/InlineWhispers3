@@ -9,26 +9,26 @@ import argparse
 from pathlib import Path
 from shutil import copyfile
 
-def get_new_seed():
-    '''Get new seed'''
-    with open('SysWhispers3/syscalls_all.h') as file:
-        for line in file:
-            if 'SW3_SEED' in line:
-                return line
-            
-def replace_seed():
-    '''Replace SEED in the new file'''
-    new_seed = get_new_seed()
-
-    replacement = ''
-    with open('output/syscalls.h', 'r') as file:
-        for line in file:
-            line = line.strip()
-            changes = line.replace('$$SEED$$', new_seed)
-            replacement = replacement + changes + '\n'
-    with open('output/syscalls.h', 'w') as file:
-        file.write(replacement)
-        print("[+] New seed added to syscalls.h")
+#def get_new_seed():
+#    '''Get new seed'''
+#    with open('SysWhispers3/syscalls_all.h') as file:
+#        for line in file:
+#            if 'SW3_SEED' in line:
+#                return line
+# None of this is needed, this literally kills beacons, we can't change the seed or it won't find any syscalls, will it?
+#def replace_seed():
+#    '''Replace SEED in the new file'''
+#    new_seed = get_new_seed()
+#
+#    replacement = ''
+#    with open('output/syscalls.h', 'r') as file:
+#        for line in file:
+#            line = line.strip()
+#            changes = line.replace('$$SEED$$', new_seed)
+#            replacement = replacement + changes + '\n'
+#    with open('output/syscalls.h', 'w') as file:
+#        file.write(replacement)
+#        print("[+] New seed added to syscalls.h")
 
 def replace_extern():
     '''Replace EXTERN_C definitions in the new file'''
@@ -50,6 +50,22 @@ def replace_extern():
                 changes = line
             replacement = replacement + changes + '\n'
     with open('output/syscalls.h', 'w') as file:
+        file.write(replacement)
+
+def make_bof_safe():
+    '''Can't have any globals in a bof There is one in syswhispers'''
+    replacement = ''
+    with open('output/syscalls.c' ,'r') as file:
+        for line in file:
+            line = line.strip()
+            #This is a global, it will not be tolerated by the bof, ask me how I know? hours and hours of debugging :cry:
+            if 'SW3_SYSCALL_LIST SW3_SyscallList;' in line:
+                # Replace the entire line
+                changes = 'SW3_SYSCALL_LIST SW3_SyscallList = {0};'
+            else:
+                changes = line
+            replacement = replacement + changes + '\n'
+    with open('output/syscalls.c', 'w') as file:
         file.write(replacement)
 
 def create_asm_file():
@@ -118,46 +134,49 @@ def merge_to_aio():
             aio.write(remove_specific_includes(sys_asm.read()))
 
 if __name__ == '__main__':
-	'''Main'''
-	print(".___       .__  .__              __      __.__    .__                                   ________  ")
-	print("|   | ____ |  | |__| ____   ____/  \\    /  \\  |__ |__| ____________   ___________  _____\\_____  \\ ")
-	print("|   |/    \\|  | |  |/    \\_/ __ \\   \\/\\/   /  |  \\|  |/  ___/\\____ \\_/ __ \\_  __ \\/  ___/ _(__  < ")
-	print("|   |   |  \\  |_|  |   |  \\  ___/\\        /|   Y  \\  |\\___ \\ |  |_> >  ___/|  | \\/\\___ \\ /       \\ ")
-	print("|___|___|  /____/__|___|  /\\___  >\\__/\\  / |___|  /__/____  >|   __/ \\___  >__|  /____  >______  /")
-	print("         \\/             \\/     \\/      \\/       \\/        \\/ |__|        \\/           \\/       \\/")
-	print("\r\ntdeerenberg - https://github.com/tdeerenberg\r\n")
+    '''Main'''
+    print(".___       .__  .__              __      __.__    .__                                   ________  ")
+    print("|   | ____ |  | |__| ____   ____/  \\    /  \\  |__ |__| ____________   ___________  _____\\_____  \\ ")
+    print("|   |/    \\|  | |  |/    \\_/ __ \\   \\/\\/   /  |  \\|  |/  ___/\\____ \\_/ __ \\_  __ \\/  ___/ _(__  < ")
+    print("|   |   |  \\  |_|  |   |  \\  ___/\\        /|   Y  \\  |\\___ \\ |  |_> >  ___/|  | \\/\\___ \\ /       \\ ")
+    print("|___|___|  /____/__|___|  /\\___  >\\__/\\  / |___|  /__/____  >|   __/ \\___  >__|  /____  >______  /")
+    print("         \\/             \\/     \\/      \\/       \\/        \\/ |__|        \\/           \\/       \\/")
+    print("\r\ntdeerenberg - https://github.com/tdeerenberg\r\n")
 
-	if not os.path.isdir('SysWhispers3') or not os.path.isfile('SysWhispers3/syscalls_all.h'):
-		print('[ERROR] SysWhispers3 not present, to fix:\r\n')
-		print('git clone https://github.com/klezVirus/SysWhispers3')
-		print('cd SysWhispers3/ && python3 syswhispers.py -p all -a x64 -m jumper -o syscalls_all && cd ..\r\n')
-		sys.exit(0)
+    if not os.path.isdir('SysWhispers3') or not os.path.isfile('SysWhispers3/syscalls_all.h'):
+        print('[ERROR] SysWhispers3 not present, to fix:\r\n')
+        print('git clone https://github.com/klezVirus/SysWhispers3')
+        print('cd SysWhispers3/ && python3 syswhispers.py -p all -a x64 -m jumper -o syscalls_all && cd ..\r\n')
+        sys.exit(0)
 
-	# Create output directory with the new templates
-	Path('output').mkdir(parents=True, exist_ok=True)
-	copyfile('syscalls.c.template', 'output/syscalls.c')
-	copyfile('syscalls.h.template', 'output/syscalls.h')
+    # Create output directory with the new templates
+    Path('output').mkdir(parents=True, exist_ok=True)
+    copyfile('syscalls.c.template', 'output/syscalls.c')
+    copyfile('syscalls.h.template', 'output/syscalls.h')
 
-	parser = argparse.ArgumentParser()
-	parser.add_argument('--aio', action='store_true', help="Trigger the aio flag")
-	args = parser.parse_args()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--aio', action='store_true', help="Trigger the aio flag")
+    args = parser.parse_args()
 
-	# Replace EXTERN_C in syscalls.h
-	print("[+] Replacing EXTERN_C in syscalls.h")
-	replace_extern()
-	print("[+] Replaced EXTERN_C in syscalls.h")
+    # Replace EXTERN_C in syscalls.h
+    print("[+] Replacing EXTERN_C in syscalls.h")
+    replace_extern()
+    print("[+] Replaced EXTERN_C in syscalls.h")
+    # initialize the uninitialized global in syswhispers3
+    print('[+] Making bof-safe!')
+    make_bof_safe()
+    print('[+] Should be bof safe!')
+    # Create asm stub with the correct syscalls format
+    print("[+] Creating syscalls-asm.c with indirect syscall instructions")
+    create_asm_file()
+    print("[+] Done creating syscalls-asm.c\n")
 
-	# Create asm stub with the correct syscalls format
-	print("[+] Creating syscalls-asm.c with indirect syscall instructions")
-	create_asm_file()
-	print("[+] Done creating syscalls-asm.c\n")
+    if args.aio:
+        print('[+] All in One flag detected, merging syscalls.c, syscalls.h, and syscalls-asm.h into one file')
+        merge_to_aio()
+        print("[+] Merged into one usable file: syscalls-aio.h\n")
+        print("Import syscalls-aio.h in your project and include syscalls-aio.h to use indirect syscalls, or:")
 
-	if args.aio:
-		print('[+] All in One flag detected, merging syscalls.c, syscalls.h, and syscalls-asm.h into one file')
-		merge_to_aio()
-		print("[+] Merged into one usable file: syscalls-aio.h\n")
-		print("Import syscalls-aio.h in your project and include syscalls-aio.h to use indirect syscalls, or:")
-
-	print("Import syscalls.c syscalls.h, syscalls-asm.h in your project and include syscalls.c to start to use syscalls")
+    print("Import syscalls.c syscalls.h, syscalls-asm.h in your project and include syscalls.c to start to use syscalls")
 
 
