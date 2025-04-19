@@ -9,26 +9,26 @@ import argparse
 from pathlib import Path
 from shutil import copyfile
 
-#def get_new_seed():
-#    '''Get new seed'''
-#    with open('SysWhispers3/syscalls_all.h') as file:
-#        for line in file:
-#            if 'SW3_SEED' in line:
-#                return line
+def get_new_seed():
+    '''Get new seed'''
+    with open('SysWhispers3/syscalls_all.h') as file:
+        for line in file:
+            if 'SW3_SEED' in line:
+                return line
 # None of this is needed, this literally kills beacons, we can't change the seed or it won't find any syscalls, will it?
-#def replace_seed():
-#    '''Replace SEED in the new file'''
-#    new_seed = get_new_seed()
-#
-#    replacement = ''
-#    with open('output/syscalls.h', 'r') as file:
-#        for line in file:
-#            line = line.strip()
-#            changes = line.replace('$$SEED$$', new_seed)
-#            replacement = replacement + changes + '\n'
-#    with open('output/syscalls.h', 'w') as file:
-#        file.write(replacement)
-#        print("[+] New seed added to syscalls.h")
+def replace_seed():
+    '''Replace SEED in the new file'''
+    new_seed = get_new_seed()
+
+    replacement = ''
+    with open('output/syscalls.h', 'r') as file:
+        for line in file:
+            line = line.strip()
+            changes = line.replace('$$SEED$$', new_seed)
+            replacement = replacement + changes + '\n'
+    with open('output/syscalls.h', 'w') as file:
+        file.write(replacement)
+        print("[+] New seed added to syscalls.h")
 
 def replace_extern():
     '''Replace EXTERN_C definitions in the new file'''
