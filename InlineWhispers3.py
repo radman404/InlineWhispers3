@@ -10,25 +10,31 @@ from pathlib import Path
 from shutil import copyfile
 
 def get_new_seed():
-    '''Get new seed'''
+    '''Extract only the seed value (hex)'''
     with open('SysWhispers3/syscalls_all.h') as file:
         for line in file:
             if 'SW3_SEED' in line:
-                return line
-# None of this is needed, this literally kills beacons, we can't change the seed or it won't find any syscalls, will it?
+                parts = line.split()
+                if len(parts) >= 3:
+                    return parts[2].strip()  # Return only the hex value, e.g., 0x12345678
+    return None
 def replace_seed():
-    '''Replace SEED in the new file'''
+    '''Replace $$SEED$$ with the new seed value'''
     new_seed = get_new_seed()
+    if not new_seed:
+        print("[-] Failed to find a seed!")
+        return
 
     replacement = ''
     with open('output/syscalls.h', 'r') as file:
         for line in file:
-            line = line.strip()
-            changes = line.replace('$$SEED$$', new_seed)
-            replacement = replacement + changes + '\n'
+            if line.strip().startswith('#define SW3_SEED'):
+                # Replace the entire line with new seed
+                line = f'#define SW3_SEED {new_seed}\n'
+            replacement += line
     with open('output/syscalls.h', 'w') as file:
         file.write(replacement)
-        print("[+] New seed added to syscalls.h")
+        print(f"[+] New seed {new_seed} added to syscalls.h")
 
 def replace_extern():
     '''Replace EXTERN_C definitions in the new file'''
@@ -157,7 +163,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--aio', action='store_true', help="Trigger the aio flag")
     args = parser.parse_args()
-
+    replace_seed()
     # Replace EXTERN_C in syscalls.h
     print("[+] Replacing EXTERN_C in syscalls.h")
     replace_extern()
