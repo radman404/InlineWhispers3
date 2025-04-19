@@ -11,15 +11,17 @@ from shutil import copyfile
 
 def get_new_seed():
     '''Extract only the seed value (hex)'''
+    ''' When I first read the code and ran it I thought these two functions somehow got a *new* seed'''
+    ''' They're intended to take the seed from Syswhispers generated file and put it in our copied files'''
     with open('SysWhispers3/syscalls_all.h') as file:
         for line in file:
             if 'SW3_SEED' in line:
                 parts = line.split()
                 if len(parts) >= 3:
-                    return parts[2].strip()  # Return only the hex value, e.g., 0x12345678
+                    return parts[2].strip()  # Return only the hex value, e.g., 0x12345678 instead of returning the whole line.
     return None
 def replace_seed():
-    '''Replace $$SEED$$ with the new seed value'''
+    '''Replace SEED with the seed value from Syswhispers'''
     new_seed = get_new_seed()
     if not new_seed:
         print("[-] Failed to find a seed!")
@@ -29,12 +31,12 @@ def replace_seed():
     with open('output/syscalls.h', 'r') as file:
         for line in file:
             if line.strip().startswith('#define SW3_SEED'):
-                # Replace the entire line with new seed
+                # Replace the entire line with new seed, this is a fixed function to get the proper seed from syswhispers
                 line = f'#define SW3_SEED {new_seed}\n'
             replacement += line
     with open('output/syscalls.h', 'w') as file:
         file.write(replacement)
-        print(f"[+] New seed {new_seed} added to syscalls.h")
+        print(f"[+] Seed {new_seed} Copied to syscalls.h")
 
 def replace_extern():
     '''Replace EXTERN_C definitions in the new file'''
