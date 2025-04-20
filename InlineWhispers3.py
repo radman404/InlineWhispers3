@@ -69,7 +69,7 @@ def make_bof_safe():
             #This is a global, it will not be tolerated by the bof, ask me how I know? hours and hours of debugging :cry:
             if 'SW3_SYSCALL_LIST SW3_SyscallList;' in line:
                 # Replace the entire line
-                changes = 'SW3_SYSCALL_LIST SW3_SyscallList = {0};'
+                changes = 'SW3_SYSCALL_LIST SW3_SyscallList __attribute__ ((section(".data")));'
             else:
                 changes = line
             replacement = replacement + changes + '\n'
